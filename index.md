@@ -8,7 +8,7 @@ title: Rachel Fung
 
 
 ## About
-<img src="https://rachelylfung.github.io/assets/headshot.jpg" title="Rachel Fung" width="300" height="400" img align="left" margin="20"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://rachelylfung.github.io/assets/headshot.jpg" title="Rachel Fung" width="300" height="400" img align="left" margin="20"/>&nbsp;&nbsp;&nbsp;&nbsp
 
 I am a third-year PhD candidate in Economics at Princeton University. My research interests are in labour and public economics.
 
