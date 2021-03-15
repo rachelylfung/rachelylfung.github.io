@@ -17,6 +17,13 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
+			<div class="container-fluid ">
+        <div class="row-fluid content-row">
+            {% block content_body %}{% endblock %}
+        </div>
+        <div class="footer-spacer"></div>
+        <div class="row-fluid footer-row navbar">
+            <div class="navbar-inner">
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:ylfung@princeton.edu">email</a></li>
