@@ -4,7 +4,7 @@ title: Rachel Fung
 ---
 <div class="blurb">
 	<h1>Rachel Fung</h1>
-</div><!-- /.blurb -->
+</div>
 
 
 
