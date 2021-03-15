@@ -8,7 +8,7 @@ title: Rachel Fung
 
 
 ## About
-![Rachel Fung](https://rachelylfung.github.com/assets/headshot.jpg)
+![Rachel Fung](https://rachelylfung.github.io/assets/headshot.jpg)
 
 I am a third-year PhD candidate in Economics at Princeton University. My research interests are in labour and public economics.
 
