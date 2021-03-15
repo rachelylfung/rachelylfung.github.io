@@ -9,7 +9,7 @@ title: Rachel Fung
 
 
 <div class="post">
-	![Rachel Fung]("https://rachelylfung.github.io/assets/headshot.jpg"){: width="300px" height="400px" style="float:left; padding-right=20px"}
+	![Rachel Fung]("https://rachelylfung.github.io/assets/headshot.jpg")
 	<h2> About </h2>
 	<p> I am a third-year PhD candidate in Economics at Princeton University. My research interests are in labour and public economics. </p>
 	<p> My CV is available here. </p>
