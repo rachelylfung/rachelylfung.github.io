@@ -8,9 +8,8 @@ title: Rachel Fung
 
 
 ## About
-<table border="0" cellspacing="0" cellpadding="5">
-	<tr style="vertical-align:top">
-	<td><img src="https://rachelylfung.github.io/assets/headshot.jpg" title="Rachel Fung" width="300" height="400" img align="left" margin="20"/></td>
+<table border="0" cellspacing="0" cellpadding="5"><tr>
+	<td style="vertical-align:top"><img src="https://rachelylfung.github.io/assets/headshot.jpg" title="Rachel Fung" width="300" height="400" img align="left" margin="20"/></td>
 	<td>hi</td>
 </tr></table>
 
