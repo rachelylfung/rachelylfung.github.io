@@ -15,7 +15,7 @@
 
     body {
       margin: 0;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #222;
       background: #fff;
     }
@@ -30,7 +30,6 @@
       max-width: 1150px;
       margin: 0 auto;
       padding: 18px 30px;
-
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -124,21 +123,37 @@
       margin: 0 0 50px;
     }
 
-    .paper {
-      max-width: 900px;
-      margin: 0 auto 40px;
+    #research h3 {
+      font-size: 23px;
+      font-weight: 400;
+      margin-top: 45px;
+      margin-bottom: 25px;
+      color: #333;
     }
 
-    .paper-label {
-      color: #dd0514;
-      font-size: 18px;
-      margin-bottom: 8px;
+    .paper {
+      margin-bottom: 34px;
     }
 
     .paper-title {
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 12px;
+      font-size: 21px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    .paper-title a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    .paper-title a:hover {
+      color: #dd0514;
+    }
+
+    .paper-details {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 3px;
     }
 
     /* ---------- MOBILE ---------- */
@@ -195,7 +210,6 @@
 
 <body id="home">
 
-
   <!-- NAVIGATION -->
 
   <nav>
@@ -205,10 +219,7 @@
 
       <a href="#research">Research</a>
 
-      <a href="FungRachel_cv.pdf"
-         target="_blank">
-         CV
-      </a>
+      <a href="FungRachel_cv.pdf" target="_blank">CV</a>
 
     </div>
   </nav>
@@ -220,7 +231,6 @@
 
     <h1>Rachel Y. L. Fung</h1>
 
-
     <div class="main">
 
       <div>
@@ -229,7 +239,6 @@
           src="IMG_2213.jpeg"
           alt="Rachel Y. L. Fung">
       </div>
-
 
       <div class="bio">
 
@@ -247,13 +256,6 @@
           My research interests are in health, labour, and public economics.
           I received my PhD in Economics from Princeton University in 2024.
         </p>
-
-        <p>
-          You can view my CV
-          <a href="FungRachel_cv.pdf"
-             target="_blank">here</a>.
-        </p>
-
 
         <h2>Contact:</h2>
 
@@ -278,30 +280,91 @@
     </div>
 
 
-
     <!-- RESEARCH -->
 
     <section id="research">
 
       <h2>Research</h2>
 
+
+      <!-- JOB MARKET PAPER -->
+
+      <h3>Job Market Paper</h3>
+
       <div class="paper">
 
-        <div class="paper-label">
-          Job Market Paper
+        <div class="paper-title">
+          <a href="Fung_JMP.pdf" target="_blank">
+            Housing Market Shocks and the Decline in U.S. Fertility
+          </a>
         </div>
 
+      </div>
+
+
+      <!-- PUBLICATIONS -->
+
+      <h3>Publications</h3>
+
+      <div class="paper">
+
         <div class="paper-title">
-          Housing Market Shocks and the Decline in U.S. Fertility
+          <a href="YOUR-JAMA-URL-HERE" target="_blank">
+            E-Cigarettes in Historical Context—Innovation, Risk, and Regulation
+          </a>
+        </div>
+
+        <div class="paper-details">
+          with Michael F. Pesko, Jamie Hartmann-Boyce, and Neal L. Benowitz
+        </div>
+
+        <div class="paper-details">
+          <em>JAMA Health Forum</em>, 2025
+        </div>
+
+      </div>
+
+
+      <div class="paper">
+
+        <div class="paper-title">
+          <a href="YOUR-PAPER-URL-HERE" target="_blank">
+            Another Published Paper
+          </a>
+        </div>
+
+        <div class="paper-details">
+          with Coauthor A and Coauthor B
+        </div>
+
+        <div class="paper-details">
+          <em>Another Journal</em>, 2025
+        </div>
+
+      </div>
+
+
+      <!-- WORKING PAPERS -->
+
+      <h3>Working Papers</h3>
+
+      <div class="paper">
+
+        <div class="paper-title">
+          <a href="workingpaper.pdf" target="_blank">
+            Title of Working Paper
+          </a>
+        </div>
+
+        <div class="paper-details">
+          with Coauthor Name
         </div>
 
       </div>
 
     </section>
 
-
   </div>
-
 
 </body>
 </html>
