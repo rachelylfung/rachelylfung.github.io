@@ -126,41 +126,73 @@
 
     #research h2 {
       text-align: center;
-      font-size: 36px;
-      margin: 0 0 50px;
-    }
-
-    #research h3 {
-      font-size: 23px;
+      font-size: 32px;
       font-weight: 400;
-      margin-top: 45px;
-      margin-bottom: 25px;
-      color: #333;
+      color: #dd0514;
+      margin: 0 0 45px;
     }
-
+    
+    #research h3 {
+      font-size: 22px;
+      font-weight: 400;
+      color: #222;
+      margin-top: 45px;
+      margin-bottom: 28px;
+    }
+    
     .paper {
       margin-bottom: 34px;
     }
-
+    
     .paper-title {
-      font-size: 21px;
+      font-size: 18px;
       font-weight: 500;
-      margin-bottom: 5px;
+      line-height: 1.4;
+      margin-bottom: 4px;
     }
-
+    
     .paper-title a {
-      color: #222;
-      text-decoration: none;
+      color: #dd0514;
+      text-decoration: underline;
     }
-
-    .paper-title a:hover {
+    
+    .paper-details {
+      font-size: 16px;
+      line-height: 1.45;
+      color: #222;
+      margin-bottom: 4px;
+    }
+    
+    .paper-status {
+      font-size: 16px;
+      line-height: 1.45;
+      margin-top: 8px;
+    }
+    
+    .paper-status em {
       color: #dd0514;
     }
+    
+    .research-divider {
+      border: 0;
+      border-top: 1px solid #999;
+      margin: 38px 0;
+    }
 
-    .paper-details {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 3px;
+    .abstract {
+      margin-top: 10px;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    
+    .abstract summary {
+      color: #555;
+      cursor: pointer;
+      width: fit-content;
+    }
+    
+    .abstract summary:hover {
+      color: #dd0514;
     }
 
     /* ---------- MOBILE ---------- */
@@ -310,6 +342,14 @@
           </a>
         </div>
 
+        <details class="abstract">
+          <summary>Abstract</summary>
+        
+          <p>
+            Your abstract goes here.
+          </p>
+        </details>
+          
       </div>
 
 
@@ -356,21 +396,21 @@
 
       
       <div class="paper">
-
+      
         <div class="paper-title">
           <a href="https://www.journals.uchicago.edu/doi/10.1086/739173" target="_blank">
             E-cigarettes and Planned Smoking Cessation
           </a>
         </div>
-
+      
         <div class="paper-details">
           with Michael F. Pesko
         </div>
-
-        <div class="paper-details">
-          <em>American Journal of Health Economics</em>, Forthcoming
+      
+        <div class="paper-status">
+          Forthcoming, <em>American Journal of Health Economics</em>
         </div>
-
+      
       </div>
 
 
