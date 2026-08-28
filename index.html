@@ -1,13 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rachel Y. L. Fung</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rachel Y. L. Fung</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 24px;
+      font-size: 18px;
+    }
+
+    nav .name {
+      font-size: 20px;
+      color: #555;
+    }
+
+    nav a {
+      margin-left: 28px;
+      text-decoration: none;
+      color: #444;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 1150px;
+      margin: 40px auto 80px;
+      padding: 0 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 44px;
+      font-weight: 400;
+      color: #d60000;
+      margin: 35px 0 65px;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: 430px 1fr;
+      gap: 90px;
+      align-items: start;
+    }
+
+    .headshot {
+      width: 100%;
+      max-width: 430px;
+      display: block;
+    }
+
+    .bio {
+      font-size: 20px;
+      line-height: 1.65;
+    }
+
+    .bio p {
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    a {
+      color: #d60000;
+    }
+
+    h2 {
+      color: #d60000;
+      font-size: 30px;
+      font-weight: 400;
+      margin-top: 45px;
+      margin-bottom: 18px;
+    }
+
+    .contact {
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 850px) {
+      .main {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .headshot {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 38px;
+        margin-bottom: 45px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 16px;
+      }
+
+      nav .name {
+        font-size: 17px;
+      }
+
+      nav a {
+        margin-left: 16px;
+        font-size: 16px;
+      }
+
+      .page {
+        margin-top: 20px;
+        padding: 0 20px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .bio,
+      .contact {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 
 <body>
+
+  <nav>
+    <div class="name">Rachel Fung</div>
+
+    <div>
+      <a href="/">Home</a>
+      <a href="#research">Research</a>
+    </div>
+  </nav>
+
+  <div class="page">
+
     <h1>Rachel Y. L. Fung</h1>
-    <p>Postdoctoral Fellow in Health Economics and Policy</p>
-    <p>University of Missouri</p>
+
+    <div class="main">
+
+      <div>
+        <img
+          class="headshot"
+          src="IMG_2213.jpeg"
+          alt="Rachel Y. L. Fung"
+        >
+      </div>
+
+      <div class="bio">
+
+        <p>
+          I am a Postdoctoral Fellow in Health Economics and Policy
+          at the University of Missouri.
+        </p>
+
+        <p>
+          I am on the job market during the 2026–2027 academic year
+          and available for interviews.
+        </p>
+
+        <p>
+          My research interests are in health, labour, and public economics.
+          I received my PhD in Economics from Princeton University in 2024.
+        </p>
+
+        <p>
+          You can view my CV
+          <a href="FungRachel_cv.pdf" target="_blank">here</a>.
+        </p>
+
+        <h2>Contact:</h2>
+
+        <div class="contact">
+          <p>Department of Economics</p>
+          <p>615 Locust Street</p>
+          <p>Columbia, MO 65201</p>
+          <p>
+            <a href="mailto:rachelfung@missouri.edu">
+              rachelfung@missouri.edu
+            </a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
